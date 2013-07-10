@@ -1,5 +1,6 @@
 package com.yeamanan.sample;
 
+import java.io.IOException;
 import org.apache.log4j.Logger;
 
 public class Sample {

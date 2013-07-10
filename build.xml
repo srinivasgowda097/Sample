@@ -17,7 +17,7 @@
   <!-- -->
 
   <!-- Main class of the project -->
-  <property name="main-class"  value="com.yeamanan.soundz.Soundz"/>
+  <property name="main-class"  value="com.yeamanan.sample.Sample"/>
   <!-- -->
   
   <!-- Path of the classpath -->
