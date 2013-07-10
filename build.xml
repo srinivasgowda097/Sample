@@ -106,7 +106,7 @@
   </target>
   <!-- -->
 
-  <!-- Run JUnit test-->
+  <!-- Run JUnit test -->
   <target name="test" depends="build-test">
     <junit printsummary="yes">
       <classpath>
