@@ -1,11 +1,13 @@
 package com.yeamanan.sample;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.assertTrue;
+import org.junit.Test;
 
-public class SampleTest extends TestCase {
+public class SampleTest {
 
-    public void testExample() throws Exception {
-        assertTrue();
+    @Test
+    public void testTrue() {
+        assertTrue(true);
     }
 
 }
