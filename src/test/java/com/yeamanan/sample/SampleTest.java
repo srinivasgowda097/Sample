@@ -1,13 +1,20 @@
 package com.yeamanan.sample;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
+/**
+ * SampleTest class.
+ *
+ * @author Yeam Anan (<yeamanan@gmail.com>)
+ */
 public class SampleTest {
 
+    /**
+     * test() test method.
+     */
     @Test
-    public void testTrue() {
-        assertTrue(true);
+    public final void test() {
+        assertEquals("This is ok", Sample.write(), "This is a sample project");
     }
-
 }
